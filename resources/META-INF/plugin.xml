@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>color.scheme.white-inspire</id>
+    <name>White Inspire Color Scheme</name>
+    <version>1.0.3</version>
+    <vendor email="aykononov@yandex.ru" url="https://github.com/aykononov/intellij-white-inspire-theme">Aleksandr Kononov
+    </vendor>
+
+    <description><![CDATA[
+      This is a White theme for JetBrains IDE, inspired by the default theme "White Inspire"
+
+      <br/><br/>
+        To install:
+        <ul>
+        <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin, and install it</li>
+        <li>Restart the IDE</li>
+        <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and select "White Inspire" in the <i>Theme</i> dropdown</li>
+        </ul>
+        <br/>
+
+        <a href="https://github.com/aykononov/intellij-white-inspire-theme">GitHub: source code and issues</a>
+        <br/><br/><br/>
+        <img src="https://raw.githubusercontent.com/aykononov/intellij-white-inspire-theme/master/images/editorJava.png" border="0" width="500" alt="Java screenshot">
+        <br/>
+        <img src="https://raw.githubusercontent.com/aykononov/intellij-white-inspire-theme/master/images/editorXml.png" border="0" width="506" alt="XML screenshot">
+        <br/>
+        <img src="https://raw.githubusercontent.com/aykononov/intellij-white-inspire-theme/master/images/editorJson.png" border="0" width="506" alt="JSON screenshot">
+    ]]></description>
+
+    <change-notes><![CDATA[
+      
+    ]]>
+    </change-notes>
+
+    <idea-version since-build="142.0"/>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="/colors/White Inspire"/>
+    </extensions>
+</idea-plugin>
